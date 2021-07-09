@@ -95,3 +95,10 @@ If you are looking for a developer/team to help you build an admin panel on Lara
 [link-author]: http://tabacitu.ro
 [link-contributors]: ../../contributors
 
+## How to update this project
+```git push -u upstream master```
+## How to update original project(backpack demo)
+```
+git fetch upstream
+git merge upstream/master master
+```

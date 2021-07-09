@@ -16,7 +16,7 @@ class CreateDummyTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->text('description');
-            $table->json('extras');
+            $table->text('extras');
             $table->timestamps();
         });
     }
